@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.env
+.DS_Store
+
+# Never commit client material or generated reports
+clients/
+prompts/
+calls.json
+*-report.md
+audit-report.md

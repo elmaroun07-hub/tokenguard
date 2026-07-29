@@ -1,0 +1,30 @@
+{
+  "_WARNING": "EXAMPLE VALUES ONLY. Model prices change often \u2014 update from the providers' live pricing pages before relying on any dollar figure.",
+  "models": {
+    "claude-haiku": {
+      "inputPerMTok": 1.0,
+      "outputPerMTok": 5.0,
+      "cachedInputPerMTok": 0.1
+    },
+    "claude-sonnet": {
+      "inputPerMTok": 3.0,
+      "outputPerMTok": 15.0,
+      "cachedInputPerMTok": 0.3
+    },
+    "claude-opus": {
+      "inputPerMTok": 15.0,
+      "outputPerMTok": 75.0,
+      "cachedInputPerMTok": 1.5
+    },
+    "gpt-small": {
+      "inputPerMTok": 0.6,
+      "outputPerMTok": 2.4,
+      "cachedInputPerMTok": 0.3
+    },
+    "gpt-large": {
+      "inputPerMTok": 5.0,
+      "outputPerMTok": 20.0,
+      "cachedInputPerMTok": 2.5
+    }
+  }
+}

@@ -1,0 +1,5 @@
+[
+  { "prompt": "system-support.md", "model": "claude-sonnet", "callsPerMonth": 50000, "avgOutputTokens": 180 },
+  { "prompt": "system-sales.md", "model": "claude-sonnet", "callsPerMonth": 12000, "avgOutputTokens": 220 },
+  { "prompt": "classifier.txt", "model": "claude-opus", "callsPerMonth": 90000, "avgOutputTokens": 4 }
+]
