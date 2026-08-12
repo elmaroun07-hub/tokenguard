@@ -1,5 +1,5 @@
 {
-  "name": "tokenguard",
+  "name": "@houssain/tokenguard",
   "version": "2.0.0",
   "description": "Audit LLM prompt spend with real BPE tokenizers: token counts, formatting bloat, cross-prompt redundancy, model-routing waste and monthly cost projections.",
   "main": "lib.js",
