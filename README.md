@@ -30,6 +30,18 @@ The principle is enforced throughout, and the enforcement runs in both direction
 ## Install
 
 ```bash
+npm install -g @houssain/tokenguard
+```
+
+Or run it without installing:
+
+```bash
+npx @houssain/tokenguard --help
+```
+
+**From source:**
+
+```bash
 git clone https://github.com/elmaroun07-hub/tokenguard.git
 cd tokenguard
 npm install
