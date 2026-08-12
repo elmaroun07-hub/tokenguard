@@ -1,15 +1,46 @@
 {
   "name": "tokenguard",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Audit LLM prompt spend with real BPE tokenizers: token counts, formatting bloat, cross-prompt redundancy, model-routing waste and monthly cost projections.",
   "main": "lib.js",
-  "bin": { "tokenguard": "audit.js" },
-  "scripts": { "test": "node --test" },
-  "keywords": ["llm", "tokens", "tokenizer", "prompt-engineering", "cost-optimization", "openai", "anthropic", "bpe", "cli", "finops"],
+  "bin": {
+    "tokenguard": "audit.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "llm",
+    "tokens",
+    "tokenizer",
+    "prompt-engineering",
+    "cost-optimization",
+    "openai",
+    "anthropic",
+    "bpe",
+    "cli",
+    "finops"
+  ],
   "author": "Houssain El Marouni",
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/elmaroun07-hub/tokenguard.git" },
-  "engines": { "node": ">=18" },
-  "files": ["audit.js", "lib.js", "prices.json", "sample-calls.json", "sample-prompts/", ".gitattributes", "README.md", "LICENSE"],
-  "dependencies": { "gpt-tokenizer": "^3.4.0" }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmaroun07-hub/tokenguard.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "audit.js",
+    "lib.js",
+    "prices.json",
+    "sample-calls.json",
+    "sample-prompts/",
+    ".gitattributes",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "gpt-tokenizer": "^3.4.0"
+  }
 }
