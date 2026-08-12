@@ -27,14 +27,25 @@ That principle is enforced throughout:
 git clone https://github.com/elmaroun07-hub/tokenguard.git
 cd tokenguard
 npm install
-```
-
-## Usage
+## Install
 
 ```bash
-node audit.js <prompts-dir> [options]
+npm install -g @houssain/tokenguard
 ```
 
+Or run without installing:
+
+```bash
+npx @houssain/tokenguard --help
+```
+
+**From source:**
+
+```bash
+git clone https://github.com/elmaroun07-hub/tokenguard.git
+cd tokenguard
+npm install
+```
 | Option | Description |
 |---|---|
 | `--calls <file>` | Per-prompt monthly call volumes — enables cost projection and routing flags (see `sample-calls.json`) |
