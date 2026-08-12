@@ -1,0 +1,7 @@
+[
+  { "prompt": "system-support.md", "model": "claude-sonnet-5", "callsPerMonth": 50000, "avgOutputTokens": 180,
+    "cacheablePrefixTokens": 1400, "cacheWritesPerMonth": 300 },
+  { "prompt": "system-sales.md", "model": "claude-sonnet-5", "callsPerMonth": 12000, "avgOutputTokens": 220 },
+  { "prompt": "classifier.txt", "model": "claude-opus-5", "callsPerMonth": 90000, "avgOutputTokens": 4 },
+  { "prompt": "router.md", "model": "claude-opus-5", "callsPerMonth": 30000 }
+]

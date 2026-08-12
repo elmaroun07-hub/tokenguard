@@ -1,0 +1,11 @@
+node_modules/
+prices.private.json
+*.log
+
+# Default --out path: the tool's own build artefact. Tracking it makes the
+# documented run fail on a fresh clone, because the overwrite guard fires
+# before any work. sample-report.md is the deliberate artefact and stays.
+audit-report.md
+
+# Internal sales collateral, not product documentation.
+logging-shim/INSTALL-note-to-client.md

@@ -1,0 +1,56 @@
+{
+  "_verified": "2099-01-01",
+  "_sources": [
+    "No provider was consulted for this file. Every rate below is invented so the quickstart has something to run on.",
+    "Replace each figure from the provider's own live pricing page, then set _verified to the date you did so."
+  ],
+  "_refresh_rule": "Re-verify every rate on the day you deliver a paid report and archive a dated copy of this file alongside it.",
+  "_verified_note": "Deliberately far-future so a clone months from now still runs the documented example. A real table carries the date you actually checked the rates, and the tool refuses it after 45 days.",
+  "fx": {
+    "code": "EUR",
+    "symbol": "\u20ac",
+    "perUsd": 0.865,
+    "asOf": "2099-01-01"
+  },
+  "models": {
+    "claude-opus-5": {
+      "provider": "anthropic", "type": "chat", "tokenizer": null,
+      "inputPerMTok": 5.0, "outputPerMTok": 25.0,
+      "cachedInputPerMTok": 0.5, "cacheWritePerMTok": 6.25, "minCacheableTokens": 1024
+    },
+    "claude-sonnet-5": {
+      "provider": "anthropic", "type": "chat", "tokenizer": null,
+      "inputPerMTok": 2.0, "outputPerMTok": 10.0,
+      "cachedInputPerMTok": 0.2, "cacheWritePerMTok": 2.5, "minCacheableTokens": 1024,
+      "_expires": "2099-06-30",
+      "_revertsTo": { "inputPerMTok": 3.0, "outputPerMTok": 15.0 }
+    },
+    "claude-haiku-4-5": {
+      "provider": "anthropic", "type": "chat", "tokenizer": null,
+      "inputPerMTok": 1.0, "outputPerMTok": 5.0,
+      "cachedInputPerMTok": 0.1, "cacheWritePerMTok": 1.25, "minCacheableTokens": 2048
+    },
+    "gpt-5.6-sol": {
+      "provider": "openai", "type": "chat", "tokenizer": "o200k_base",
+      "inputPerMTok": 5.0, "outputPerMTok": 30.0,
+      "cachedInputPerMTok": 0.5, "cacheWritePerMTok": 6.25, "minCacheableTokens": 1024
+    },
+    "gpt-5.6-terra": {
+      "provider": "openai", "type": "chat", "tokenizer": "o200k_base",
+      "inputPerMTok": 2.0, "outputPerMTok": 12.0,
+      "cachedInputPerMTok": 0.2, "cacheWritePerMTok": 2.5, "minCacheableTokens": 1024
+    },
+    "gpt-5.6-luna": {
+      "provider": "openai", "type": "chat", "tokenizer": "o200k_base",
+      "inputPerMTok": 0.2, "outputPerMTok": 1.2,
+      "cachedInputPerMTok": 0.02, "cacheWritePerMTok": 0.25, "minCacheableTokens": 1024
+    }
+  },
+  "_not_modelled": {
+    "batch": "50% off input and output on both providers. Model manually as a separate finding for latency-tolerant workloads.",
+    "thinkingTokens": "Reasoning tokens bill as output but are absent from the response body. Ask for BILLED output tokens, not response lengths.",
+    "longContext": "Both providers meter long-context requests differently above certain thresholds. Rates here are short-context.",
+    "cacheTTL": "cacheWritePerMTok assumes the 5-minute TTL (1.25x base input). A 1-hour cache costs 2x base input."
+  },
+  "_WARNING": "EXAMPLE VALUES ONLY - placeholders, not real provider rates. Model keys match sample-calls.json so the quickstart runs, but every figure is fictional. Replace each rate from the providers' live pricing pages and set _verified to the date you checked them."
+}
