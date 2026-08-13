@@ -1,4 +1,6 @@
-> **Superseded.** This is TokenGuard v1.0.0, kept for history. It contains defects that overstate savings — trailing-whitespace detection fails on CRLF files, fence tracking can strip inside code blocks, and separator-less scripts are silently excluded. Use `main`.
+# TokenGuard
+
+**Audit LLM prompt spend with real tokenizers.** Point it at a folder of prompts and it reports what your prompt library actually costs, where the waste is, and what a cleanup is worth per month — measured, not estimated.
 ```
 ✔ Analyzed 4 prompts, 157 tokens
 ✔ Formatting savings: 2 tokens/cycle
