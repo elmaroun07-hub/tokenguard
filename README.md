@@ -50,7 +50,7 @@ npm install
 ## Usage
 
 ```bash
-node audit.js <prompts-dir> [options]
+tokenguard <prompts-dir> [options]
 ```
 
 | Option | Description |
